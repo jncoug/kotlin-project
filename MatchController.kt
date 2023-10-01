@@ -38,7 +38,7 @@ class MatchController(private val match: Match) {
         print("Enter the number of points needed to win: ")
         match.pointsToWin = readlnOrNull()?.toIntOrNull() ?: 25
 
-
+        recordRally()
 
     }
 
